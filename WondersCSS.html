@@ -1,55 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-    .red {
-        color: red;
-    }
 
-    .blue {
-        color: blue;
-    }
-
-    .green {
-        color: green;
-    }
-
-    .big {
-        font-size: large;
-    }
-
-    .tiny {
-        font-size: small;
-    }
-
-    .center {
-        text-align: center;
-    
-    }
-
-    .bold {
-        font-weight: bold;
-    }
-
-    .font {
-        font-family: fantasy;
-    }
-
-    .styledFont {
-        font-size: large;
-        font-style: bold;
-        color: orange;
-    }
-    </style>
     <title>CSS Practice</title>
+
     <!-- Link to your external CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 
 
 </head>
 <body>
 
     <!-- Center -->
-    <h1>The Wonders of CSS!</h1>
+    <h1 class="center">The Wonders of CSS!</h1>
 
     <hr>
 
@@ -74,7 +37,7 @@
     <p class="font">We can even change our font-family if we are feeling creative!</p>
 
     <!-- Multiple attributes -->
-    <p>Try combining multiple attributes to make big, orange, bold text!</p>
+    <p class="multiple">Try combining multiple attributes to make big, orange, bold text!</p>
 
     <hr>
 
@@ -91,7 +54,7 @@
     <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
 
     <!-- Border & id -->
-    <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
+    <img class="border" id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
 
     <hr>
 
