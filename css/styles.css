@@ -28,11 +28,24 @@
     }
 
     .font {
-        font-family: fantasy;
+        font-family: Arial;
+    }
+
+    .multiple {
+        font-size: large;
+        color: orange;
+        font-weight: bold;
     }
 
     .styledFont {
         font-size: large;
-        font-style: bold;
-        color: orange;
+        font-family: Arial, Arial, sans-serif;
+        color: green;
+    }
+
+    .border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: orange;
+
     }
